@@ -25,4 +25,4 @@ function callMe() {
 
 // passing function as an argument (callback)
 greet("Peter", callMe);
-// -------------------------------
+// -------------------------------  

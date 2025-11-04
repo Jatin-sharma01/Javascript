@@ -1,7 +1,7 @@
-function showCallFunc(fn){
-    const value = 10;
-    fn(value)
+function showCallFunc(fn) {
+    let a = 10;
+    fn(a)
 }
-showCallFunc(function (value){
-    console.log(value)
+showCallFunc(function fn(b){
+    console.log(b)
 })
